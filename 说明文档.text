@@ -1,0 +1,15 @@
+﻿Js/Css/Images 一键压缩功能，测试通过环境 chrome v28.0.1500.71 + nodejs v0.10.18  /  firefox v14.0.1 + nodejs v0.10.18
+
+压缩目录：test（你也可以指定需要压缩的根目录，可以在前端传uglifyUrl这个值），你必须把需要压缩的Js/Css/Images分别归类归好
+
+需要安装的node模块：
+
+socket.io ：作用为客户端和服务器端的双向实时通信；
+
+uglify-js ：作用为js文件的压缩；
+
+clean-css ：作用为css文件的压缩；
+
+node-smushit ：作用为图片文件的压缩；
+
+walk ：作用为分析磁盘的目录结构；

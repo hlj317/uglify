@@ -1,0 +1,451 @@
+/***************************************hd***************************************/
+.header {
+    margin: 0 auto;
+    /*
+    padding-top: 11px;
+    */
+    /* height: 110px; */
+    position: absolute;
+    z-index: 2;
+    z-index: 999;
+	left: 50%;
+	margin-left: -480px;
+	top: 71px;
+}
+.logo {
+    width: 400px;
+    height: 71px;
+    display: block;
+    float: left;
+   /*
+    margin-top: 8px;
+*/
+    background: url(../imgs/logov1.png) no-repeat 0px 20px;
+    position:relative;
+}
+
+.header .logo h3{
+    font-size: 16px;
+    color: #D71920;
+    position: absolute;
+    top:19px;
+    left:165px;
+}
+
+
+.mininav {
+    width: 500px;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    float: right;
+    text-align: right;
+    padding-top:10px;
+    color: #808080;
+}
+
+.mininav a {
+    color: #888;
+    text-align: center;
+    padding: 0 13px 0 15px;
+    margin: 0;
+}
+.mininav a:hover {
+	text-decoration: underline;
+}
+.mininav a.a1 {
+    padding-left: 21px;
+    background-position: -382px -16px;
+}
+.mininav a.help {
+	background: url(../imgs/help_icon.png) no-repeat;
+	padding-left: 25px;
+}
+.mininav a.download {
+	background: url(../imgs/app_icon.png) no-repeat;
+	padding-left: 20px;
+}
+#login {
+	padding: 1px 20px 1px 21px;
+	background: url(../imgs/login_bg.png) 0 0 repeat-x;
+	color: #fff;
+}
+/***************nav****************/
+.nav {
+    margin: 0 8px 0 8px;
+    clear: both;
+    height: 39px;
+    width: 944px;
+    line-height: 20px;
+    background: url(../imgs/b1_repeat.png) 0 0 repeat-x;
+    position: relative;
+
+}
+
+.nav a {
+    width: 120px;
+    line-height: 36px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    color: #565555;
+    position: relative;
+    background: url(../imgs/b1.png) 137px -38px no-repeat;
+}
+
+.nav a.m4 {
+    width: 130px;
+    background: url(.../imgs/v2.png) 127px 0 no-repeat;
+}
+
+.nav a i.hover_left {
+    position: absolute;
+    left: -3px;
+    top: 0;
+    width: 4px;
+    height: 36px;
+    background: url(../imgs/nav_hover_left.gif) no-repeat center 1px;
+}
+
+
+.nav a.current,.nav a:hover {
+    color: #F15C43;
+}
+
+.nav a.nav_s_hover {
+    background: url(../imgs/ban_hover.gif) no-repeat center 1px;
+}
+.nav a.index{
+	position: relative;
+}
+.nav a.index b {
+    background: url(../imgs/navIndexBg.png) no-repeat 1px -23px;
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 10px;
+	left: 35px;
+}
+.nav a.index:hover b {
+    background: url(../imgs/navIndexBg.png) no-repeat 1px 1px;
+}
+.nav a.current b {
+    background: url(../imgs/navIndexBg.png) no-repeat 1px 1px;
+}
+.nav .nav_download_menu {
+    position: absolute;
+    min-width: 260px;
+    min-height: 100px;
+    top: 36px;
+    border: 1px #d7d7d7 solid;
+    -webkit-box-shadow: 0 3px 6px #ccc;
+    -moz-box-shadow: 0 3px 6px #ccc;
+    -ms-box-shadow: 0 3px 6px #ccc;
+    -o-box-shadow: 0 3px 6px #ccc;
+    box-shadow: 0 3px 6px #ccc;
+    background-color: #ffffff;
+}
+.nav .nav_download_menu .mask_bg {
+    width: 100%;
+    height: 3px;
+    position: relative;
+}
+.nav .nav_download_menu .mask {
+
+    width: 140px;
+    height: 3px;
+    position: absolute;
+    top: -2px;
+    left: 66px;
+    background: #ffffff;
+}
+.nav a i.m3 {
+    width: 13px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 28px;
+    background: url(../imgs/b1.png) -79px 0 no-repeat;
+}
+
+.nav .m1 {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 8px;
+    height: 39px;
+    display: block;
+    background: url(../imgs/b1.png) 0 0 no-repeat;
+}
+
+.nav .m2 {
+    left: 943px;
+    background: url(../imgs/b1.png) -8px 0 no-repeat;
+}
+.nav .company_download_menu, .nav .family_download_menu {
+    left: -70px;
+}
+.nav .product_download_menu {
+    left: -430px;
+}
+.nav .product_download_menu .mask {
+    left: 426px;
+}
+.nav .fac_menu ul {
+    width: 260px;
+    height: 105px;
+    overflow: hidden;
+    float: left;
+}
+
+.nav .fac_menu li {
+    display: inline;
+    float: left;
+    width: 130px;
+    position: relative;
+}
+
+.nav .fac_menu li a {
+    width: auto;
+    line-height: 18px;
+    display: block;
+    float: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+    color: #565555;
+    position: relative;
+    background: none;
+
+}
+.nav .fac_menu li a:hover {
+    text-decoration: underline;
+}
+.nav .fac_menu li h1 {
+    font-size: 14px;
+    color: #565656;
+    padding: 12px 0 6px;
+}
+
+.nav .fac_menu .fac_menu_line {
+    width: 1px;
+    height: 133px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    background: url(../imgs/nav_menu_line.gif) center no-repeat;
+}
+.nav .pro_menu {
+    width: 960px;
+    height: 103px;
+    position: relative;
+}
+.nav .pro_menu .pro_list {
+    width: 910px;
+    height: 100%;
+    position: relative;
+    /*
+    margin: 10px 55px 0 55px;
+    */
+    margin: 10px 5px 0 45px;
+   
+    overflow: hidden;
+}
+.nav .pro_menu .pro_list .pro_list_ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.nav .pro_menu .pro_list li {
+    float: left;
+    display: inline;
+    width: 182px;
+    height: 100%;
+    background: url(../imgs/line1.gif) no-repeat right 0;
+}
+.nav .pro_menu .pro_list li:last-child {
+ 
+    background: none;
+}
+.nav .pro_menu .pro_list li a {
+    width: 100%;
+    float: none;
+    padding: 0;
+    font-size: 12px;
+    background: none;
+    text-align: center;
+    color: #706c84;
+}
+.nav .pro_menu .pro_list li a:hover {
+    color: #009cff;
+}
+.nav .pro_menu .pro_list li a h2{
+    display: none;
+}
+.nav .pro_menu a.pro_tri {
+    display: block;
+    width: 14px;
+    height: 28px;
+    position: absolute;
+    top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav .pro_menu a.pro_nav_left {
+    display: none;
+    left: 25px;
+    background-image: url(../imgs/pro_nav_left.gif);
+}
+.nav .pro_menu a.pro_nav_right {
+     display: none;
+   right: 25px;
+    background-image: url(../imgs/pro_nav_right.gif);
+}
+.nav .new_nav{
+	position:relative;
+	top:-3px;
+	left:-41px
+}
+
+#inc-topnav {
+	width: 960px;
+	height: 71px;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+	z-index: 9999;
+}
+
+#inc-topnav a {
+	font-size: 13px;
+}
+
+#inc-topnav a:hover {
+	text-decoration: underline;
+	color: #f06c5a;
+}
+
+#inc-topnav .topnav-logo {
+	width: 315px;
+	height: 100%;
+	background: url(../imgs/topnav-logo.png) no-repeat 0 15px;
+	display: block;
+	float: left;
+}
+
+#inc-topnav .topnav-list {
+	height: 22px;
+	float: right;
+	margin-top: 15px;
+}
+
+#inc-topnav .topnav-item {
+	display: inline-block;
+	height: 22px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	color: #BEBEBE;
+	line-height: 20px;
+}
+
+#inc-topnav .topnav-item-login {
+	padding-left: 19px;
+	padding-right: 20px;
+	background: url(../imgs/login_bg.png) no-repeat;
+	margin-right: 4px;
+}
+
+#inc-topnav .topnav-item-login a {
+	color: #fff;
+}
+
+#inc-topnav .topnav-item .app-icon {
+	padding-left: 25px;
+	background: url(../imgs/app_icon.png) no-repeat 5px 1px;
+}
+
+#inc-topnav .nav-box {
+	position: absolute;
+	min-width: 80px;
+	border: 1px solid #d0d0d0;
+	background: white;
+	z-index: 9999;
+}
+
+#inc-topnav .nav-box ul {
+	padding-bottom: 6px;
+}
+
+#inc-topnav .nav-box li {
+	height: 25px;
+	line-height: 25px;
+	padding-right: 5px;
+}
+
+#inc-topnav .nav-box li:hover {
+	/* background: #f06c5a; */
+}
+
+#inc-topnav .nav-box li a {
+	display: block;
+	color: #8b8b8b;
+	padding-left: 12px;
+	padding-right: 15px;
+}
+
+#inc-topnav .nav-box li a:hover {
+	color: #f06c5a;
+	text-decoration: underline;
+}
+
+#inc-topnav .site-map .triangle-up:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
+#inc-topnav .site-map li:hover:FIRST-CHILD {
+	background: white;
+}
+
+#inc-topnav .site-map .triangle-up:hover {
+	color: #8b8b8b;
+}
+
+/* account-box */
+#inc-topnav .account-box {
+	right: 320px;
+	top: 11px;
+	display: none;
+}
+
+#inc-topnav .account-box .username:hover {
+	/* background: url("../imgs/icon-triangle-up-white.png") no-repeat right 9px; */
+}
+
+/* site-map */
+#inc-topnav .site-map {
+	right: 0px;
+	top: 11px;
+	display: none;
+}
+
+#inc-topnav .topnav-list .triangle-down {
+	padding-right: 15px;
+	background: url("../imgs/icon-triangle-down.png") no-repeat right 7px;
+}
+
+#inc-topnav .nav-box .triangle-up {
+	background: url("../imgs/icon-triangle-up.png") no-repeat right 9px;
+}
+
+#inc-topnav .text-gray {
+	color: gray;
+}

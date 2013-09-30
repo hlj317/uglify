@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/css.css' />
+ <script type='text/javascript' src='/javascripts/jquery.js'></script>
+  </head>
+  <body>3131
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p><input type="button" id="uglify" value="发布"/></p>
+  </body>
+  <script type='text/javascript'>
+  	$('#uglify').click(function(){
+		    $.ajax({
+            type: "POST",
+            url: "/test2",
+            data: "{}",
+            dataType: "json",
+            success: function (data) {
+                alert('right');
+            },
+            error: function (msg) {
+                alert('timeout');
+            }
+        });
+  	})
+  </script>
+</html>

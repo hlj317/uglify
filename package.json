@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "ejs": "*",
+    "socket.io": "*",
+    "walk" : "*",
+    "uglify-js":"1.x.x",
+    "clean-css":"1.0.12",
+    "node-smushit":"0.5.1"
+  }
+}

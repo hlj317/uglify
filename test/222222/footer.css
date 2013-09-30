@@ -1,0 +1,73 @@
+/****************************************************ft***********************************/
+#footer-info {
+	margin-top: 45px;
+	background: #f6f5f6;
+	width: 100%;
+	height: 205px;
+	clear: both;
+}
+#footer-info .wrapper {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+#footer-info .wrapper .list {
+	height: 175px;
+	float: left;
+	width: 192px;
+	padding-top: 30px;
+}
+#footer-info .wrapper .list li{
+	height: 25px;
+	line-height: 25px;
+	color: #828282;
+}
+#footer-info .wrapper .list ul {
+	padding-top: 20px;
+}
+#footer-info .wrapper .list a {
+	font-size: 12px;
+	color: #828282;
+}
+#footer-info .wrapper .list a:hover {
+	text-decoration: underline;
+}
+#footer-info .wrapper h3 {
+	color: #808080;
+	font-size: 18px;
+}
+#footer-info .wrapper .list3 img{
+	margin-top: 20px;
+}
+
+
+#footer {
+    width: 100%;
+    border-top: 1px #e8e8e8 solid;
+    background: #f6f5f6;
+}
+#footer .ft {
+    width: 960px;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+}
+#footer .ico_logobt {
+    position: absolute;
+    display: block;
+    width: 77px;
+    height: 14px;
+    top: 3px;
+    left: 21%;
+}
+
+#footer h2 {
+    color: #626262;
+	font-size: 12px;
+}
+
+#footer h2 a {
+    color: #6888be;
+}

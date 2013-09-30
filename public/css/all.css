@@ -1,0 +1,16 @@
+*{
+	font-size: 12px;
+}
+.container{
+	margin: 0 auto;
+	width: 960px;
+}
+.w960{
+	width: 960px;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
